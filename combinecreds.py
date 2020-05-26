@@ -77,13 +77,13 @@ def main(argv):
 
 # Append each line to a new combined files with an extra field for the target source from file name
 
-    f=open(outputfile+'_cached.txt','w')
+    f=open(outputfile+'_cached.csv','w')
     f.write("Server,IP Address,Date Found,Account,Password\n")
     for line in cached:
         f.write(line)
     print("Cached Credentials written to "+outputfile+'_cached.csv')
 
-    f=open(outputfile+'_secrets.txt','w')
+    f=open(outputfile+'_secrets.csv','w')
     f.write("Server,IP Address,Date Found,Account,Password\n")
     for line in secrets:
         f.write(line)            
