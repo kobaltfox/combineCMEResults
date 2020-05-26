@@ -4,15 +4,6 @@ import sys, getopt, os, re
 
 def main(argv):
 
-    print(" _  __     _           _ _   _____         _")
-    print("| |/ /___ | |__   __ _| | |_|  ___|____  _| |")
-    print("| ' // _ \| '_ \ / _` | | __| |_ / _ \ \/ / |")
-    print("| . \ (_) | |_) | (_| | | |_|  _| (_) >  <|_|")
-    print("|_|\_\___/|_.__/ \__,_|_|\__|_|  \___/_/\_(_)")
-    print("*** CombineCreds.py ***")
-    print(" -h for help, -i for input location, -o for name of output files")
-    print(" by Todd Fletcher - 2020")
-
     cacheloc = ''
     outputfile = ''
     try:
