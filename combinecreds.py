@@ -9,7 +9,7 @@ def main(argv):
     print("| ' // _ \| '_ \ / _` | | __| |_ / _ \ \/ / |")
     print("| . \ (_) | |_) | (_| | | |_|  _| (_) >  <|_|")
     print("|_|\_\___/|_.__/ \__,_|_|\__|_|  \___/_/\_(_)")
-    print("*** CME Combine Secrets Cache ***")
+    print("*** CombineCreds.py ***")
     print(" -h for help, -i for input location, -o for name of output files")
     print(" by Todd Fletcher - 2020")
 
